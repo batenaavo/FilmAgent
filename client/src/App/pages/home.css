@@ -1,0 +1,16 @@
+homeBody{ 
+	padding-top: 100px;
+	position: absolute; 
+	width: 100%;
+	padding-left: 30px;
+	padding-right: 30px;
+	text-align: center;
+	background-image: linear-gradient(#99c898 , #2f6731);
+	background-attachment: scroll;
+	background-size: 100%;
+	text-align: center;
+}
+
+.navbar-nav > div{
+  padding-right:20px;
+}
