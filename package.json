@@ -1,0 +1,29 @@
+{
+	"name": "FilmAgent",
+	"version": "1.0.0",
+	"description": "film torrents database",
+	"main": "app.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"client": "cd client && npm start",
+		"start": "npm run client"
+	},
+	"dependencies": {
+		"body-parser": "*",
+		"bootstrap": "*",
+		"popper.js": "*",
+		"express": "*",
+		"express-validator": "^5.3.0",
+		"mongoose": "*",
+		"morgan": "*",
+		"passport": "*",
+		"passport-local": "^1.0.0",
+		"torrent-search-api": "*",
+		"cors": "*",
+		"jquery": "*",
+		"webtorrent": "*"
+	},
+	"author": "quim",
+	"license": "ISC",
+	"proxy": "http://localhost:5000"
+}
